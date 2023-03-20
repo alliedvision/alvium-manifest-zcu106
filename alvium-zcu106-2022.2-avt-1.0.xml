@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote fetch="https://github.com/yoctoproject" name="yocto-github"/>
+  <remote fetch="https://github.com/Xilinx/" name="xilinx-github"/>
+  <remote fetch="https://github.com/meta-qt5/" name="qt5-github"/>
+  <remote fetch="https://github.com/openembedded/" name="oe-github"/>
+  <remote fetch="https://github.com/alliedvision" name="avt-github"/>
+
+  <project name="poky" path="sources/poky" remote="yocto-github" upstream="honister" revision="fd00d74f47ceb57a619c4d0a0553ff0a30bbb7a4"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe-github" upstream="honister" revision="0e6c34f82ca4d43cbca3754c5fe37c5b3bdd0f37"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="qt5-github" upstream="honister" revision="4837db1d965c51e4a2c5971e6a126c896e5b401a"/>
+
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx-github" upstream="rel-v2022.2" revision="2e60ee606a1a9a08db72b69e018b1ed1fd2d1047"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2022.2" revision="909b70c3f2db8df5cd3c68f5e739833dc8885b0c"/>
+
+
+  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="feature/manifests"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
+      <linkfile dest="enabled_boards/zcu106" src="tools/boards/zcu106"/>
+  </project>
+
+</manifest>
