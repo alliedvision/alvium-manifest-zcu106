@@ -9,12 +9,12 @@
   <remote fetch="https://github.com/openembedded/" name="oe-github"/>
   <remote fetch="https://github.com/alliedvision" name="avt-github"/>
 
-  <project name="poky" path="sources/poky" remote="yocto-github" upstream="honister" revision="fd00d74f47ceb57a619c4d0a0553ff0a30bbb7a4"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe-github" upstream="honister" revision="0e6c34f82ca4d43cbca3754c5fe37c5b3bdd0f37"/>
-  <project name="meta-qt5" path="sources/meta-qt5" remote="qt5-github" upstream="honister" revision="4837db1d965c51e4a2c5971e6a126c896e5b401a"/>
+  <project name="poky" path="sources/poky" remote="yocto-github" upstream="langdale" revision="3e95f268ce04b49ba6731fd4bbc53b1693c21963"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe-github" upstream="langdale" revision="cbbaa82238cd60f08c9b9cb58dde59d5f9318c7b"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="qt5-github" upstream="langdale" revision="036b791361abbc6abe8d31e88f71792cc7ed5cfd"/>
 
-  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx-github" upstream="rel-v2022.2" revision="2e60ee606a1a9a08db72b69e018b1ed1fd2d1047"/>
-  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2022.2" revision="909b70c3f2db8df5cd3c68f5e739833dc8885b0c"/>
+  <project name="meta-xilinx" path="sources/meta-xilinx" remote="xilinx-github" upstream="rel-v2023.1" revision="d4732aa636e6764c64030083a20975283c2352d5"/>
+  <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2023.1" revision="280695ffd7ae40009e37b568dd9a7c5cbab5bfbd"/>
 
 
   <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="dev"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
