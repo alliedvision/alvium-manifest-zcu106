@@ -17,7 +17,7 @@
   <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2023.1" revision="280695ffd7ae40009e37b568dd9a7c5cbab5bfbd"/>
 
 
-  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="fix/2023-1-build-configuration"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
+  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" revision="dev"> <!-- upstream="main" revision="87cf5b55a5738a6ae3a76d5206a8cf3f868a2b8d"-->
       <linkfile dest="enabled_boards/zcu106" src="tools/boards/zcu106"/>
       <linkfile dest="setup-avt-release.sh" src="tools/setup-avt-release.sh"/>
   </project>
