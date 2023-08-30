@@ -74,12 +74,14 @@ Tip: For the prebake image, skip step 1 - 2 and start with step 3.
 
 ### Board configuration
 Before a camera can be used a bitstream must be loaded into the FPGA part of the ZynqMP. 
-This is done using the following command:
+The bitstream must be loaded as root.
+This is done using the following commands:
 ```shell 
+    su
     avt-load-bitstream <bitstream name>
 ```
 The following bitstreams are available:
-- raw: This bitstream is needed for GenICam for CSI2 streaming. The camera streams in Mono or Bayer format using v4l2.  
+- raw8: This bitstream is needed for GenICam for CSI2 streaming. The camera streams in Mono or Bayer format using v4l2.  
 - yuv: The camera can stream with YUV422.
 - rgb: The camera can stream with RGB24.
 
