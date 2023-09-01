@@ -89,6 +89,16 @@ The following bitstreams are available:
 ### General
 - Only one fixed format per bitstream is support
 
+### Video4Linux2 compliance
+Set following v4l2-compliance test are expected to fail:
+- VIDIOC_QUERY_EXT_CTRL/QUERYMENU
+- VIDIOC_G/S_CTRL
+- VIDIOC_(UN)SUBSCRIBE_EVENT/DQEVENT
+- VIDIOC_G_FMT
+- VIDIOC_TRY_FMT
+- VIDIOC_S_FMT
+- VIDIOC_REQBUFS/CREATE_BUFS/QUERYBUF
+
 ### Allied Vision V4L2Viewer
 - The V4L2Viewer does not support all formats that the hardware supports.
 
