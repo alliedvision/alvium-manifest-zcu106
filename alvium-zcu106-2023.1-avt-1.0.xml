@@ -22,6 +22,6 @@
       <linkfile dest="setup-avt-release.sh" src="tools/setup-avt-release.sh"/>
   </project>
 
-  <project name="meta-alvium-bitstream" path="sources/meta-alvium-bitstream" remote="avt-github" upstream="main" revision="a6bdb48bc4694f96ee15a09ec77d3938e78e9cab"/>
+  <project name="meta-alvium-bitstream" path="sources/meta-alvium-bitstream" remote="avt-github" upstream="main" revision="0169da545e263e25d876ceaae1b98994dca2c52f"/>
 
 </manifest>
