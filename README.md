@@ -95,6 +95,7 @@ The following bitstreams are available:
 Set following v4l2-compliance test are expected to fail:
 - VIDIOC_QUERY_EXT_CTRL/QUERYMENU
 - VIDIOC_G/S_CTRL
+- VIDIOC_QUERYCTRL
 - VIDIOC_(UN)SUBSCRIBE_EVENT/DQEVENT
 - VIDIOC_G_FMT
 - VIDIOC_TRY_FMT
