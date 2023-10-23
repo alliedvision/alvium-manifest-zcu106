@@ -17,11 +17,11 @@
   <project name="meta-xilinx-tools" path="sources/meta-xilinx-tools" remote="xilinx-github" upstream="rel-v2023.1" revision="280695ffd7ae40009e37b568dd9a7c5cbab5bfbd"/>
 
 
-  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github"  upstream="main" revision="4f366e62e1f3da3375498aae5cc42a4b44c34b9f">
+  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github"  upstream="main" revision="cab5496194debc7d52b76034b80b3416890c92c5">
       <linkfile dest="enabled_boards/zcu106" src="tools/boards/zcu106"/>
       <linkfile dest="setup-avt-release.sh" src="tools/setup-avt-release.sh"/>
   </project>
 
-  <project name="meta-alvium-bitstream" path="sources/meta-alvium-bitstream" remote="avt-github" upstream="main" revision="91a1fa49fa480f436f49b1854bae6bf8d73e3dc4"/>
+  <project name="meta-alvium-bitstream" path="sources/meta-alvium-bitstream" remote="avt-github" upstream="main" revision="8fc9001f6e05c592dbe2aa5125bbda30c7c1c48c"/>
 
 </manifest>
