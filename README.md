@@ -54,7 +54,7 @@ To install the driver and layer:
 5. Flash the image to the SD card.  If you have built the image with yocto, you can find the image here:
             <build_dir>/tmp/deploy/images/zcu106-zynqmp/avs-image-alvium-validation-zcu106-zynqmp.rootfs.wic.bz2
 6. Boot the board.
-7. Check if the camera firmware version is 11.1 or higher. If the camera has an earlier firmware, perform an update with Vimba X Firmware Updater.
+7. Check if the camera firmware version is 12 or higher. If the camera has an earlier firmware, perform an update with Vimba X Firmware Updater.
 
 ### SDK Installation
 
@@ -67,7 +67,7 @@ Tip: For the prebake image, skip step 1 - 2 and start with step 3.
     ```
 3. Install the SDK on your system by running the installer script. If you have built the sdk, you can find it here:
    <build_dir>/tmp/deploy/sdk/poky-glibc-x86_64-avs-image-alvium-validation-cortexa72-cortexa53-zcu106-zynqmp-toolchain-4.1.4.sh
-4. If you have installed the sdk to the default location. You can setup the build enviorment by running:
+4. If you have installed the sdk to the default location. You can setup the build environment by running:
    ```shell
    source /opt/poky/4.1.4/environment-setup-cortexa72-cortexa53-poky-linux 
    ```
