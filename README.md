@@ -131,7 +131,7 @@ To get get your Alvium CSI-2 camera and Vimba X up and running, read: [Getting S
 Please be aware that all code revisions not explicitly listed in the Github Release section are
 considered a **Beta Version**.
 
-For Beta Versions, the following applies in addition to the BSD 2-Clause License:
+For Beta Versions, the following applies in addition to the BSD 3-Clause License:
 
 THE SOFTWARE IS PRELIMINARY AND STILL IN TESTING AND VERIFICATION PHASE AND IS PROVIDED ON AN “AS
 IS” AND “AS AVAILABLE” BASIS AND IS BELIEVED TO CONTAIN DEFECTS. THE PRIMARY PURPOSE OF THIS EARLY
